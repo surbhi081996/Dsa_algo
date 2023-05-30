@@ -11,7 +11,11 @@ public class ArrayList {
 	 ar.add("red");
 	 ar.add("yellow");
 	 ar.add("black");
-	 System.out.println(ar);
+	 ar.add("brown");
+	 for(String element:ar)
+	 {
+		 System.out.println(element);
+	 }
 		
 		
 	}
